@@ -16,7 +16,7 @@ let result = square()
 
 console.log(result)
 
-let age = 27;
+let age = 27
 
 age = null
 console.log(age)
