@@ -1,7 +1,7 @@
 
-let scorePercent = function (studentScore, totalPossibleScore) {
+const scorePercent = function (studentScore, totalPossibleScore) {
 
-    let percent = (studentScore/totalPossibleScore)*100
+    const percent = (studentScore/totalPossibleScore)*100
     let letterGrade = ''
 
     if (percent >= 90) {
@@ -18,7 +18,7 @@ let scorePercent = function (studentScore, totalPossibleScore) {
         return `You got a ${letterGrade} (${percent}%)!`
     }
     
-    let score = scorePercent (12, 20)
+    const score = scorePercent (12, 20)
     console.log(score)
 
 
